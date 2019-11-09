@@ -1,6 +1,6 @@
 name = ['Sam', 'Abby', 'Max', 'Lee', 'Cam', 'Olly']
 verb = ['kicks', 'runs', 'rides', 'buys', 'flys', 'swims']
-noun = ['the lion', 'the plane', 'the zebra', 'the bicycle', 'the pool']
+noun = ['lion', 'plane', 'zebra', 'bicycle', 'pool']
 from random import randint
 def pick(words):
     num_words = len(words)

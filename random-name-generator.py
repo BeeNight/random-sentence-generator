@@ -1,3 +1,14 @@
-Python 3.6.2 (v3.6.2:5fd33b5, Jul  8 2017, 04:57:36) [MSC v.1900 64 bit (AMD64)] on win32
-Type "copyright", "credits" or "license()" for more information.
->>> 
+name = ['Sam', 'Abby', 'Max', 'Lee']
+verb = ['kicks', 'runs', 'rides', 'buys']
+noun = ['lion', 'plane', 'zebra', 'bicycle']
+from random import randint
+def pick(words):
+    num_words = len(words)
+    num_picked = randint(0, num_words - 1)
+    word_picked = words[num_picked]
+    return word_picked
+
+while True:
+    print(pick(name), pick(verb), 'a', pick(noun), end='.')
+    input()
+
